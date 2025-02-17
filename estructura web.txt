@@ -1,0 +1,70 @@
+src/
+├── app/
+│   ├── components/
+│   │   ├── extranjeria/               # 📂 Módulo de Extranjería con Lazy Loading
+│   │   │   ├── buscar-expediente/
+│   │   │   │   ├── buscar-expediente.component.ts
+│   │   │   │   ├── buscar-expediente.component.html
+│   │   │   │   └── buscar-expediente.component.css
+│   │   │   ├── nuevo-expediente/
+│   │   │   │   ├── nuevo-expediente.component.ts
+│   │   │   │   ├── nuevo-expediente.component.html
+│   │   │   │   └── nuevo-expediente.component.css
+│   │   │   ├── ver-expediente/
+│   │   │   │   ├── ver-expediente.component.ts
+│   │   │   │   ├── ver-expediente.component.html
+│   │   │   │   └── ver-expediente.component.css
+│   │   │   ├── extranjeria.component.ts
+│   │   │   ├── extranjeria.component.html
+│   │   │   ├── extranjeria.component.css
+│   │   │   └── extranjeria.module.ts  # 📌 Módulo para Lazy Loading
+│   │   ├── dgt/                        # 📂 (Futuro) Módulo de DGT (similar a Extranjería)
+│   │   ├── seguros/                     # 📂 (Futuro) Módulo de Seguros (similar a Extranjería)
+│   │   ├── footer/
+│   │   │   ├── footer.component.ts
+│   │   │   ├── footer.component.html
+│   │   │   └── footer.component.css
+│   │   ├── home/
+│   │   │   ├── home.component.ts
+│   │   │   ├── home.component.html
+│   │   │   └── home.component.css
+│   │   ├── login/
+│   │   │   ├── login.component.ts
+│   │   │   ├── login.component.html
+│   │   │   └── login.component.css
+│   │   ├── navbar/
+│   │   │   ├── navbar.component.ts
+│   │   │   ├── navbar.component.html
+│   │   │   └── navbar.component.css
+│   ├── services/                     # 📂 Servicios para la lógica de negocioo
+│   │   ├── auth.service.ts           # 📌 Servicio de autenticación
+│   ├── guards/                       # 📂 Guards para proteger rutas
+│   │   ├── auth.guard.ts
+│   ├── app-routing.module.ts         # 📌 Configuración de rutas con Lazy Loading
+│   ├── app.component.ts
+│   ├── app.component.html
+│   │── app.module.ts                  # 📌 Importa solo los módulos principales
+│   └── styles/
+│       └── styles.css
+└── public/
+    ├── assets/
+    │   ├── data/
+    │   ├── fonts/
+    │   ├── images/
+    │   │   ├── Personas/
+    │   │   │   ├── cajon1.jpg
+    │   │   │   ├── cajon2.jpg
+    │   │   │   ├── cajon3.jpg
+    │   │   │   ├── cajon4.jpg
+    │   │   │   ├── cajon5.jpg
+    │   │   │   ├── cajon6.jpg
+    │   │   ├── fondo-extranjeria.jpg
+    │   │   ├── fondo-login.jpg
+    │   │   ├── fondo-pagina.jpg
+    │   │   ├── fondo-tramites.jpg
+    │   │   ├── logoAmauta.webp
+    │   │   ├── slide1.jpg
+    │   │   ├── slide2.jpg
+    │   │   └── slide3.jpg
+    │   └── style/
+    └── favicon.ico
